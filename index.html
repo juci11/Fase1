@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kagura</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #7e679b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(45deg, #b89fc9 50%, #ffffff 50%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('F.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.2; /* Ajuste a opacidade conforme necessário */
+            z-index: -1;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 20px;
+            width: 800px;
+            max-width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0;
+            background-color: white;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: #007BFF;
+        }
+
+        .content {
+            display: flex;
+            padding: 40px;
+        }
+
+        .content img {
+            width: 400px;
+            max-width: 100%;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .text {
+            max-width: 100%;
+        }
+
+        .text h1 {
+            font-size: 48px;
+            margin: 0;
+            font-family: 'Arial Black', sans-serif;
+            color: #333;
+        }
+
+        .text h2 {
+            font-size: 32px;
+            font-weight: normal;
+            color: #999;
+            margin: 10px 0;
+        }
+
+        .text p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="Im.png" alt="Personagem">
+            <div class="text">
+                <h1>セカンドレベル</h1>
+                <h2>Segunda Fase</h2>
+                <p>Como Jogar:Na tela, aparecerão várias palavras.Clique apenas nas palavras corretamente escritas. que estãoPontuação:Cada palavra correta clicada vale pontos.Ao atingir 100 pontos, você passa para a segunda fase.Boa sorte!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
